@@ -1,0 +1,30 @@
+.navbar{
+    border: 1px solid black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+    background-color: aqua;
+
+}
+.navbar h3{
+    box-shadow: 0px 0px 2px;  
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    
+}
+.items ul{
+  display: flex;
+  list-style-type: none;
+  
+
+}
+.items ul li{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+}
